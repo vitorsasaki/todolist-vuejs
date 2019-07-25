@@ -22,6 +22,7 @@ const module: Module<any, any> = {
   
     },
     //methods -> actions
+    
     actions: {
        showSnackbar(context, payload){
             context.commit('mutationOpenSnackbar', payload);
